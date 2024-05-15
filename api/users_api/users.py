@@ -1,6 +1,5 @@
-from fastapi import APIRouter, Request
+from fastapi import APIRouter
 from pydantic import BaseModel
-from typing import List, Dict, Union, Optional
 from database.userservice import *
 import re
 
